@@ -8,6 +8,7 @@ html, body {
     align-items: center;
     color:#fff;
     font-family: 'MedievalSharp', cursive;
+    min-height: 100vh;
 }
 
 main {
@@ -28,7 +29,7 @@ main {
 }
 
 .character-card {
-    height:31rem;
+    height:24rem;
     margin-top: .5rem;
     width:94vw;
     max-width: 230px;
@@ -73,11 +74,13 @@ main {
     opacity: 0.8;
     border-radius: 10px;
     background-color: rgba(0, 7, 33, 0.8);
+    height: 20vh;
 }
 
 @media(min-width:550px){
     .avatar {
         width: 25vh;
+    
     }
 }
 
