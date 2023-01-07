@@ -13,3 +13,4 @@ function getDicePlaceholderHtml(diceCount) {
     ).join("")
 }
 
+export { getDiceRollArray, getDicePlaceholderHtml, getPercentage }
