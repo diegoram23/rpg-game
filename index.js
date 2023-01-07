@@ -40,8 +40,8 @@ function endGame() {
     isWaiting = true
     const endMessage = wizard.health === 0 && monster.health === 0 ?
         "No victors - all creatures are dead" :
-        wizard.health > 0 ? "The Wizard Wins" :
-            "The monsters are Victorious"
+        wizard.health > 0 ? "Dracula Wins" :
+            "The monsters were Victorious"
 
     const endEmoji = wizard.health > 0 ? "🔮" : "☠️"
         setTimeout(()=>{
