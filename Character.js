@@ -1,4 +1,3 @@
-import { getDiceRollArray, getDicePlaceholderHtml, getPercentage } from './utils.js'
 
 function Character(data) {
     Object.assign(this, data)
@@ -48,4 +47,3 @@ function Character(data) {
     }
 }
 
-export default Character
