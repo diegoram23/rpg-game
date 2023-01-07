@@ -29,7 +29,7 @@ main {
 }
 
 .character-card {
-    height:21.5rem;
+    height:21rem;
     margin-top: .5rem;
     width:94vw;
     max-width: 230px;
@@ -185,7 +185,7 @@ button {
     border-radius: 6px;
     cursor: pointer;
     color:#963404;
-    height:9vh;
+    height:6vh;
     box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.4);
 }
 
