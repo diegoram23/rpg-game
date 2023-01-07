@@ -74,7 +74,7 @@ main {
     opacity: 0.8;
     border-radius: 10px;
     background-color: rgba(0, 7, 33, 0.8);
-    height: 21vh;
+    height: 19vh;
 }
 
 @media(min-width:550px){
